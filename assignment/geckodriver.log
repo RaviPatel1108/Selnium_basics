@@ -1,0 +1,45 @@
+1677472139872	geckodriver	INFO	Listening on 127.0.0.1:57806
+1677472142980	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57807" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\112726\\AppData\\Local\\Temp\\10\\rust_mozprofileT30gp5"
+1677472144132	Marionette	INFO	Marionette enabled
+1677472144145	Marionette	INFO	Listening on port 57832
+WebDriver BiDi listening on ws://localhost:57807
+Read port: 57832
+1677472144375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\112726\\AppData\\Local\\Temp\\10\\rust_mozprofileT30gp5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57807/devtools/browser/c2fb5360-b685-4ae1-82ac-99551ecb2f8a
+1677472150569	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://www.oracle.com/asset/web/js/web-sdk.js, line 5: unreachable code after return statement
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1677472164876	Marionette	INFO	Stopped listening on port 57832
+1677473497138	geckodriver	INFO	Listening on 127.0.0.1:59019
+1677473500228	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59020" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\112726\\AppData\\Local\\Temp\\10\\rust_mozprofileVAg9tj"
+1677473501032	Marionette	INFO	Marionette enabled
+1677473501040	Marionette	INFO	Listening on port 59031
+WebDriver BiDi listening on ws://localhost:59020
+Read port: 59031
+1677473501234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\112726\\AppData\\Local\\Temp\\10\\rust_mozprofileVAg9tj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59020/devtools/browser/90f682bc-7aec-4b8a-b1ef-80810616de7e
+JavaScript warning: https://www.oracle.com/asset/web/js/web-sdk.js, line 5: unreachable code after return statement
+JavaScript error: https://tms.oracle.com/main/prod/utag.js, line 172: ReferenceError: _data is not defined
+JavaScript error: https://tms.oracle.com/main/prod/utag.14.js?utv=ut4.48.202302141825, line 18: ReferenceError: _data is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.oracle.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1677473519159	Marionette	INFO	Stopped listening on port 59031
