@@ -11,7 +11,7 @@ driver.implicitly_wait(10)
 
 driver.get("https://www.royalcaribbean.com/")
 
-driver.find_element(By.XPATH, "//div[contains(@class,'notification-banner__close')]").click()
+# driver.find_element(By.XPATH, "//div[contains(@class,'notification-banner__close')]").click()
 
 driver.find_element(By.ID, "rciHeaderSignIn").click()
 
@@ -23,9 +23,9 @@ driver.find_element(By.ID, "mat-input-3").send_keys("Dennis")
 
 driver.find_element(By.ID, "mat-input-4").send_keys("Rich")
 
-driver.find_element(By.XPATH, "//span[contains(@text(),'Month')]").click()
+driver.find_element(By.XPATH, "//span[normalize-space() ='Month']").click()
 
-driver.find_element(By.XPATH, "//span[contains(@text(),'April')]").click()
+driver.find_element(By.XPATH, "//span[normalize-space()='April']").click()
 
 driver.find_element(By.XPATH, "//span[contains(@text(),'Day')]").click()
 

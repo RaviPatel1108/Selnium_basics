@@ -1,7 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+
+from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Chrome()
 
@@ -53,7 +56,14 @@ driver.find_element(By.XPATH, "//input[@value='Confirm Create New Patient']").cl
 
 driver.switch_to.default_content()
 
-time.sleep(10)
+# Not recommended
+# time.sleep(10)
+
+# Explicit wait is recommended
+
+wait = WebDriverWait(driver, 30)
+wait.until(expected_conditions.alert_is_present())
+
 
 alert_text = driver.switch_to.alert.text
 
