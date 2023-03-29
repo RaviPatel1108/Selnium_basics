@@ -27,19 +27,23 @@ driver.find_element(By.XPATH, "//span[normalize-space() ='Month']").click()
 
 driver.find_element(By.XPATH, "//span[normalize-space()='April']").click()
 
-driver.find_element(By.XPATH, "//span[contains(@text(),'Day')]").click()
+driver.find_element(By.XPATH, "//span[normalize-space() ='Day']").click()
 
-driver.find_element(By.XPATH, "//span[contains(@text(),'4')]").click()
+driver.find_element(By.XPATH, "//span[normalize-space()='4']").click()
 
 driver.find_element(By.XPATH, "//input[@data-placeholder='Year']").send_keys("1990")
 
-driver.find_element(By.XPATH, "//span[contains(@text(),'India')]").click()
+driver.find_element(By.XPATH, "//span[text()='Country/Region of residence']").click()
+
+driver.find_element(By.XPATH, "//span[normalize-space()='India']").click()
 
 driver.find_element(By.XPATH, "//input[@data-placeholder='Email address']").send_keys("xyz@gmail.com")
 
 driver.find_element(By.XPATH, "//input[@data-placeholder='Email address']").send_keys("xyz123")
 
-driver.find_element(By.XPATH, "//span[contains(@text(),'What was your first car\'s make or model?')]").click()
+driver.find_element(By.XPATH, "//span[normalize-space()='Select one security question']").click()
+
+driver.find_element(By.XPATH, "//span[normalize-space()='What was your first car's make or model?']").click()
 
 driver.find_element(By.XPATH, "//input[@data-placeholder='Answer']").send_keys("Maruti")
 
